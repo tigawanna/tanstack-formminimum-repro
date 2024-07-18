@@ -100,19 +100,10 @@ export function TestTanstackForm({ candidate }: TestTanstackFormProps) {
             );
           }}
         />
-        <form.Field
-          name="email"
-          children={(field) => {
-            return (
-              <input
-                id="name"
-                onChange={(e) => field.handleChange(e.target.value)}
-                onBlur={field.handleBlur}
-              />
-            );
-          }}
-        />
+
       </form>
     </div>
   );
 }
+
+
